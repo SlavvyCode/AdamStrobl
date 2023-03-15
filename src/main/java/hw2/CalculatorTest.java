@@ -23,6 +23,12 @@ public class CalculatorTest {
         Assertions.assertEquals(40,calculator.multiply(5,8));
 
     }
+
+    @Test
+    public void divide_FortyDividedByFive_Eight() {
+
+        Assertions.assertEquals(8,calculator.divide(40,5));
+    }
     @Test
     public void divide_DivisionByZero_ThrowsException() {
 
