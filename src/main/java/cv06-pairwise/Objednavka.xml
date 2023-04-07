@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="Objednavka">
+  <Parameters>
+    <Parameter id="0" name="Registrace" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="1" name="Jmeno" type="1">
+      <values>
+        <value>NULL</value>
+        <value>Pismenka</value>
+        <value>Zvlastni Znaky</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="3" name="Prijmeni" type="1">
+      <values>
+        <value>NULL</value>
+        <value>Pismena</value>
+        <value>Zvlastni znaky</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="5" name="Destinace" type="1">
+      <values>
+        <value>V EU</value>
+        <value>Mimo EU</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="6" name="Datumnarozeni" type="1">
+      <values>
+        <value>DD.MM.YYYY</value>
+        <value>MM/DD/YYYY</value>
+        <value>YYYY-MM-DD</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="7" name="Sleva" type="1">
+      <values>
+        <value>Student</value>
+        <value>Duchodce</value>
+        <value>Slevovy kupon</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>false</Value>
+      <Value>NULL</Value>
+      <Value>NULL</Value>
+      <Value>Mimo EU</Value>
+      <Value>MM/DD/YYYY</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>true</Value>
+      <Value>NULL</Value>
+      <Value>Pismena</Value>
+      <Value>V EU</Value>
+      <Value>YYYY-MM-DD</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>false</Value>
+      <Value>NULL</Value>
+      <Value>Zvlastni znaky</Value>
+      <Value>V EU</Value>
+      <Value>DD.MM.YYYY</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>true</Value>
+      <Value>Pismenka</Value>
+      <Value>NULL</Value>
+      <Value>Mimo EU</Value>
+      <Value>YYYY-MM-DD</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>false</Value>
+      <Value>Pismenka</Value>
+      <Value>Pismena</Value>
+      <Value>V EU</Value>
+      <Value>DD.MM.YYYY</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>true</Value>
+      <Value>Pismenka</Value>
+      <Value>Zvlastni znaky</Value>
+      <Value>Mimo EU</Value>
+      <Value>MM/DD/YYYY</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>false</Value>
+      <Value>Zvlastni Znaky</Value>
+      <Value>NULL</Value>
+      <Value>V EU</Value>
+      <Value>DD.MM.YYYY</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>true</Value>
+      <Value>Zvlastni Znaky</Value>
+      <Value>Pismena</Value>
+      <Value>Mimo EU</Value>
+      <Value>MM/DD/YYYY</Value>
+      <Value>Student</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>false</Value>
+      <Value>Zvlastni Znaky</Value>
+      <Value>Zvlastni znaky</Value>
+      <Value>Mimo EU</Value>
+      <Value>YYYY-MM-DD</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>true</Value>
+      <Value>Pismenka</Value>
+      <Value>Pismena</Value>
+      <Value>Mimo EU</Value>
+      <Value>DD.MM.YYYY</Value>
+      <Value>Duchodce</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>false</Value>
+      <Value>Zvlastni Znaky</Value>
+      <Value>Zvlastni znaky</Value>
+      <Value>V EU</Value>
+      <Value>MM/DD/YYYY</Value>
+      <Value>Slevovy kupon</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>Registrace</Value>
+    <Value>Jmeno</Value>
+    <Value>Prijmeni</Value>
+    <Value>Destinace</Value>
+    <Value>Datumnarozeni</Value>
+    <Value>Sleva</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.001</ExecutionTime>
+    <MaxDomainSize>3</MaxDomainSize>
+    <MinDomainSize>2</MinDomainSize>
+    <TotalNoOfCombination>106</TotalNoOfCombination>
+    <TotalNoOfTests>11</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+
