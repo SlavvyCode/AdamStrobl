@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd25dd12-2de4-40b5-afc3-c87090254aae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Refactoring/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Refactoring/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Refactoring/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Refactoring/MailHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConsoleOutputTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MailHelperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MockMailHelperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Adam/Desktop/FEL CVUT/TS1/AdamStrobl",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
