@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd25dd12-2de4-40b5-afc3-c87090254aae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Refactoring/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Refactoring/DBManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Refactoring/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/cvut/fel/ts1/Refactoring/MailHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConsoleOutputTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MailHelperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MockMailHelperTest.java" afterDir="false" />
+    <list default="true" id="bd25dd12-2de4-40b5-afc3-c87090254aae" name="Changes" comment="Ukol4 ESHOP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +43,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Adam/Desktop/FEL CVUT/TS1/AdamStrobl",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/Adam/Desktop/FEL CVUT/TS1/AdamStrobl/UKOL EShop",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -68,7 +60,19 @@
       <option name="presentableId" value="Default" />
       <updated>1677173106542</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ukol4 ESHOP">
+      <created>1681985128236</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681985128236</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ukol4 ESHOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ukol4 ESHOP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
