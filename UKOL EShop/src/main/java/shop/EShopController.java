@@ -77,7 +77,10 @@ public static void main(String[] args) throws NoItemInStorage {
         storage.printListOfStoredItems();
         
         System.out.println();
-        
+
+
+
+        // START HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
         System.out.println("TEST RUN:   Fill and purchase a shopping cart");
         ShoppingCart newCart = new ShoppingCart();
         newCart.addItem(storageItems[0]);
@@ -85,6 +88,18 @@ public static void main(String[] args) throws NoItemInStorage {
         newCart.addItem(storageItems[2]);
         newCart.addItem(storageItems[4]);
         newCart.addItem(storageItems[5]);
+
+
+//      Podivat se jake mam moznosti pro procesni test
+//    newCart.getCartItems();
+//    newCart.getItemsCount();
+//    newCart.getTotalPrice();
+//
+//    while (newCart.getItemsCount()>0){
+//        newCart.removeItem(0);
+//    }
+
+
 
 
         purchaseShoppingCart(newCart, "Libuse Novakova","Kosmonautu 25, Praha 8");
